@@ -1,13 +1,14 @@
-@charset 'utf-8';
 * {
   margin: 0;
   padding: 0;
 }
+
 ul,
 ol,
 li {
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
@@ -21,6 +22,7 @@ a {
   margin: 50px;
   border-radius: 5px;
 }
+
 .view {
   display: inline-block;
   padding: 10px 30px;
@@ -40,26 +42,26 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 15px;
-
-  .content {
-    width: 100%;
-    min-height: 150px;
-    font: 30px/1.2 "arial";
-    color: #fff;
-  }
-  .check {
-    display: inline-flex;
-    align-items: center;
-
-    label {
-      color: #fff;
-      margin-left: 10px;
-    }
-  }
-  .close {
-    position: absolute;
-    bottom: 40px;
-    right: 40px;
-    color: #fff;
-  }
 }
+#popup .content {
+  width: 100%;
+  min-height: 150px;
+  font: 30px/1.2 "arial";
+  color: #fff;
+}
+#popup .check {
+  display: inline-flex;
+  align-items: center;
+}
+#popup .check label {
+  color: #fff;
+  margin-left: 10px;
+}
+#popup .close {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
